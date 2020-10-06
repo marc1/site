@@ -9,12 +9,12 @@
       "@babel/preset-react"
     ],
     "plugins": [
-        "@babel/plugin-proposal-class-properties"
+      "@babel/plugin-proposal-class-properties"
     ]
   },
   "scripts": {
     "start": "webpack-dev-server --open",
-    "build": "webpack"
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "Marc Yeo <m@marc.rs>",
