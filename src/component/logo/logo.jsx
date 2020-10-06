@@ -80,7 +80,7 @@ class Logo extends React.Component {
         const mat = new THREE.MeshBasicMaterial({ color: 0xfcfcfc });
 
         const mat_wire = new THREE.MeshBasicMaterial({ color: 0x212121, wireframe: true });
-        mat_wire.opacity = 0.85;
+        mat_wire.opacity = 0.75;
         const group = new THREE.Group();
 
         mesh_1 = new THREE.Mesh(new THREE.BufferGeometry().fromGeometry(text_1),
@@ -155,4 +155,5 @@ class Logo extends React.Component {
         )
     }
 }
+
 export default Logo;

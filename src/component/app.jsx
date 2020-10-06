@@ -9,7 +9,7 @@ class App extends React.Component {
     render() {
         return (
             <Router>
-                <Route exact path='/' component={ Landing }/>
+                <Route exact path={constants.ROUTE_LANDING} component={ Landing }/>
             </Router>
         )
     }
