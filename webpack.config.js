@@ -5,7 +5,8 @@ module.exports = {
     entry: './src/index.jsx',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'index_bundle.js'
+        filename: 'index_bundle.js',
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -29,5 +30,8 @@ module.exports = {
         alias: {
             src: path.resolve(__dirname + '/src')
         }
+    },
+    devServer: {
+        historyApiFallback: true
     }
 };
