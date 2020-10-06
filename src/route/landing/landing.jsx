@@ -8,7 +8,7 @@ import Nav from 'src/component/nav/nav.jsx'
 const Landing = () => (
     <main className={style.Landing}>
         <header>
-        <Logo/>
+            <Logo/>
         </header>
         <Nav/>
     </main>
