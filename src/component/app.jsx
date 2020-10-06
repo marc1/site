@@ -1,14 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import * as constants from 'src/constants.js' 
+
+import Landing from 'src/route/landing/landing.jsx'
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                Hello, World! 
-            </div>
+            <Router>
+                <Route exact path='/' component={ Landing }/>
+            </Router>
         )
     }
 }

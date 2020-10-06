@@ -1,0 +1,27 @@
+.Landing {
+    height: 100vh;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: 35% 25% 5% 35%;
+    grid-template-columns: 100%;
+
+    header {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+
+        z-index: 0; 
+    }
+
+    Nav {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+
+        z-index: 1;
+        width: 25vw;
+
+        justify-self: center;
+    }
+    
+}
+
