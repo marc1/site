@@ -8,7 +8,7 @@ class Nav extends React.Component {
         return (
             <nav className={style.Nav}>
                 <Link to='/about'>ABOUT</Link>
-                <Link to='/'>GITHUB</Link>
+                <a href="https://github.com/marc1" target="_blank" rel="noopener noreferrer">GITHUB</a>
                 <Link to='/'>CONTACT</Link>
             </nav>
         )
