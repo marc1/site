@@ -6,21 +6,23 @@
     grid-template-rows: 37.5% 25% 37.5%;
     grid-template-columns: 100%;
 
-    header {
+    .Logo {
         grid-row: 2 / 3;
         grid-column: 1 / 2;
 
         z-index: 0; 
     }
 
-    Nav {
+    .Nav {
         grid-row: 2 / 3;
         grid-column: 1 / 2;
 
         z-index: 1;
 
         width: 25vw;
+
         justify-self: center;
+        align-self: center;
     }
     
 }

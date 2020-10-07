@@ -7,10 +7,8 @@ import Nav from 'src/component/nav/nav.jsx'
 
 const Landing = () => (
     <main className={style.Landing}>
-        <header>
-            <Logo/>
-        </header>
-        <Nav/>
+        <span className={style.Logo}><Logo/></span>
+        <span className={style.Nav}><Nav/></span>
     </main>
 );
 
