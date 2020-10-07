@@ -8,6 +8,7 @@
     grid-template-columns: 100%; 
 
     justify-content: center;
+    margin: auto 10vw auto 10vw;
 
     header {
         grid-row: 1 / 2;
@@ -61,10 +62,10 @@
 
         justify-self: center;
 
-        line-height: 160%;
+        line-height: 170%;
         font-size: 120%;
 
-        overflow-wrap: anywhere;
+        overflow-wrap: break-word;
 
         a {
             text-decoration: none;
