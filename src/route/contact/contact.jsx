@@ -6,7 +6,7 @@ import ContentPage from 'src/component/contentpage/contentpage.jsx'
 
 const Contact = () => (
     <ContentPage>
-        <article className={style.article}>
+        <article>
             <p>
                 <h2>Contact</h2>
                 <span style={{ fontWeight: "500" }}>Email: <a>m@marc.rs</a></span>
