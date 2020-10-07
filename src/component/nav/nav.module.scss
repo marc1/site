@@ -6,7 +6,6 @@
         flex: 1;
         
         display: flex;
-        justify-content: center;
         align-items: center;
 
         color: black;
@@ -16,7 +15,7 @@
         transition: color 0.25s ease;
 
         &:hover {
-            color: rgb(150, 150, 160);
+            color: rgb(150, 155, 180);
         }
 
     }

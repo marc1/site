@@ -5,6 +5,7 @@ import * as constants from 'src/constants.js'
 
 import Landing from 'src/route/landing/landing.jsx'
 import About from 'src/route/about/about.jsx'
+import Contact from 'src/route/contact/contact.jsx'
 
 class App extends React.Component {
     render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
                 <Switch>
                     <Route exact path={constants.ROUTE_LANDING} component={ Landing }/>
                     <Route path={constants.ROUTE_ABOUT} component={ About }/>
+                    <Route path={constants.ROUTE_CONTACT} component={ Contact }/>
                 </Switch>
             </Router>
         )

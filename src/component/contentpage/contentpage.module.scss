@@ -21,7 +21,7 @@
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: rgb(150, 150, 160);
+                    color: rgb(150, 155, 180);
                 }
 
             }
@@ -57,6 +57,8 @@
 
         line-height: 160%;
         font-size: 120%;
+
+        overflow-wrap: anywhere;
 
         a {
             $link-color: #0f4ff2;
