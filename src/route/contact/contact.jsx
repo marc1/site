@@ -1,7 +1,5 @@
 import React from 'react'
 
-import style from './contact.module.scss'
-
 import * as constants from 'src/constants.js'
 
 import ContentPage from 'src/component/contentpage/contentpage.jsx'

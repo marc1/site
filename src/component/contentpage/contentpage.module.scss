@@ -1,3 +1,5 @@
+@import 'src/colors.scss';
+
 .ContentPage {
     height: 100vh;
 
@@ -16,12 +18,12 @@
 
         .title {
             a {
-                color: black;
+                color: $text;
                 text-decoration: none;
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: rgb(150, 155, 180);
+                    color: $text-hover; 
                 }
 
             }
@@ -65,10 +67,8 @@
         overflow-wrap: anywhere;
 
         a {
-            $link-color: #0f4ff2;
-
             text-decoration: none;
-            color: $link-color;
+            color: $link;
 
             transition: font-weight 0.3s ease;
             font-weight: normal;
@@ -78,7 +78,7 @@
             }
 
             &:visited {
-                color: $link-color;
+                color: $link;
             }
         }
     }

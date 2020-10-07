@@ -1,3 +1,5 @@
+@import 'src/colors.scss';
+
 .Nav {
     display: flex;
     flex-wrap: wrap;
@@ -10,14 +12,14 @@
         align-items: center;
         justify-content:center;
 
-        color: black;
+        color: $text;
         text-decoration: none;
         font-weight: bold;
 
         transition: color 0.25s ease;
 
         &:hover {
-            color: rgb(150, 155, 180);
+            color: $text-hover;
         }
 
     }
