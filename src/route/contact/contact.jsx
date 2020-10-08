@@ -2,19 +2,19 @@ import React from 'react'
 
 import * as constants from 'src/constants.js'
 
-import ContentPage from 'src/component/contentpage/contentpage.jsx'
+import ContentFrame from 'src/component/content_frame/content_frame.jsx'
 
 const Contact = () => (
-    <ContentPage>
+    <ContentFrame>
         <article>
+            <h1>Contact</h1>
             <p>
-                <h2>Contact</h2>
                 <span style={{ fontWeight: "500" }}>Email: <a>m@marc.rs</a></span>
                 <br/>
                 <span style={{ fontWeight: "500" }}>GitHub: <a href={constants.GITHUB} target="_blank" rel="noopener noreferrer">www.github.com/marc1</a></span>
             </p>
         </article>
-    </ContentPage>
+    </ContentFrame>
 );
 
 export default Contact;

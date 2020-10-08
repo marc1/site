@@ -1,9 +1,9 @@
 import React from 'react'
 
-import ContentPage from 'src/component/contentpage/contentpage.jsx'
+import ContentFrame from 'src/component/content_frame/content_frame.jsx'
 
 const About = () => (
-    <ContentPage>
+    <ContentFrame>
         <article>
             <h1>About me</h1>
             <p>
@@ -19,7 +19,7 @@ const About = () => (
                 {/*test*/}
             </p>
         </article>
-    </ContentPage>
+    </ContentFrame>
 );
 
 export default About;

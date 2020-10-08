@@ -1,6 +1,6 @@
 @import 'src/colors.scss';
 
-.ContentPage {
+.ContentFrame {
     height: 100vh;
 
     display: grid;
@@ -26,7 +26,7 @@
 
             font-weight: 1000;
             font-size: 170%;
-            text-shadow: 1px 0;
+            text-shadow: 0.7px 0;
             transform: scaleX(1.6);
             transform-origin: 0 0;
 
@@ -71,10 +71,11 @@
 
         overflow-wrap: break-word;
 
+
         /* temporary*/
         h1 {
             font-weight: 1000;
-            text-shadow: 1px 0;
+            text-shadow: 0.75px 0;
             transform: scaleY(0.9);
             transform-origin: 0 0;
         }
@@ -86,6 +87,10 @@
             &:visited {
                 color: $link;
             }
+        }
+
+        p {
+            font-family: -apple-system;
         }
     }
 }

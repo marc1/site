@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './contentpage.module.scss'
+import style from './content_frame.module.scss'
 
 import { Link } from 'react-router-dom'
 
@@ -7,11 +7,11 @@ import * as constants from 'src/constants.js'
 import Nav from 'src/component/nav/nav.jsx'
 
 
-class ContentPage extends React.Component {
+class ContentFrame extends React.Component {
     render() {
         return (
             <div style={{ display: "flex", justifyContent: "center", margin: 0, padding: 0}}>
-                <main className={style.ContentPage} style={{ maxWidth: this.props.width || "700px", width: "100%"}}> 
+                <main className={style.ContentFrame} style={{ maxWidth: this.props.width || "700px", width: "100%"}}> 
                     <header>
                         <figure className={style.title}><Link to={constants.ROUTE_LANDING}>MARC YEO</Link></figure>
                         <span className={style.Nav}><Nav/></span>
@@ -25,4 +25,4 @@ class ContentPage extends React.Component {
     }
 }
 
-export default ContentPage;
+export default ContentFrame;
