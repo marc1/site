@@ -1,6 +1,13 @@
 $background: #ffffff;
 $text: #000000;
-$text-hover: #8c8f96;
+$text-hover: #e6e6fa;
 $link: #0f4ff2;
 
+$nav: #000;
+$nav-inactive: #7d7d7d;
+
+:export {
+    nav: $nav;
+    navinactive: $nav-inactive;
+}
 

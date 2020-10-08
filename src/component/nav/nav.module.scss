@@ -1,4 +1,7 @@
 @import 'src/colors.scss';
+.active {
+    background: red;
+}
 
 .Nav {
     display: flex;
@@ -12,15 +15,20 @@
         align-items: center;
         justify-content:center;
 
+        padding-left: 5px;
+        padding-right: 5px;
+
         color: $text;
         text-decoration: none;
-        font-weight: bold;
+ 
+        font-weight: 800;
+        transform: scaleY(.9);
+        transform-origin: 0 0;
 
-        transition: color 0.25s ease;
+        transition: color 0.15s ease-out;
 
         &:hover {
             color: $text-hover;
         }
-
     }
 }

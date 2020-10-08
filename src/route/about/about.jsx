@@ -5,7 +5,7 @@ import ContentPage from 'src/component/contentpage/contentpage.jsx'
 const About = () => (
     <ContentPage>
         <article>
-            <h2>About me</h2>
+            <h1>About me</h1>
             <p>
                 My name is Marc Yeo. I'm currently a second-year Software Engineering student
                 at the <a href='https://www.uvic.ca/' target='_blank' rel='noopener noreferrer'>University of Victoria</a>,
