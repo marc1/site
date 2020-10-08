@@ -75,7 +75,6 @@
 
         a {
             text-decoration: none;
-            font-weight: 500;
             color: $text;
 
             &:visited {
@@ -87,7 +86,7 @@
 
             &:hover {
                 color: $link;
-                font-weight: 600;
+                font-weight: bold;
             }
         }
 
