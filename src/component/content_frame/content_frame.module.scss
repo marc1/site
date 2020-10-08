@@ -80,13 +80,13 @@
             &:visited {
                 color: $text;
             }
-
+            
+            font-weight: bold;
             transition: color 0.2s ease;
             transition: font-weight 0.2s ease;
 
             &:hover {
                 color: $link;
-                font-weight: bold;
             }
         }
 
