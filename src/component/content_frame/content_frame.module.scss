@@ -28,10 +28,9 @@
 
             font-weight: 900;
             font-size: 150%;
-            text-shadow: 0.7px 0;
+            text-shadow: 0.75px 0;
             transform: scaleX(1.6);
             transform-origin: 0 0;
-
 
             a {
                 color: $text;
@@ -90,7 +89,6 @@
                 color: $link;
                 font-weight: 600;
             }
-
         }
 
         p {
