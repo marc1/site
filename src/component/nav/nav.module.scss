@@ -1,26 +1,23 @@
 @import 'src/colors.scss';
-.active {
-    background: red;
-}
 
 .Nav {
     display: flex;
     flex-wrap: wrap;
 
+    .activeNavLink {
+        color: $nav-active;
+    }
+
     a {
-        flex: 1;
+        flex: 1; /* parent */
         
         display: flex;
 
         align-items: center;
         justify-content:center;
 
-        padding-left: 5px;
-        padding-right: 5px;
-
-        color: $text;
+        color: $nav-inactive;
         text-decoration: none;
- 
         font-weight: 800;
         transform: scaleY(.9);
         transform-origin: 0 0;

@@ -14,7 +14,7 @@ class ContentFrame extends React.Component {
                 <main className={style.ContentFrame} style={{ maxWidth: this.props.width || "700px", width: "100%"}}> 
                     <header>
                         <figure className={style.title}><Link to={constants.ROUTE_LANDING}>MARC YEO</Link></figure>
-                        <span className={style.Nav}><Nav/></span>
+                        <span className={style.Nav}><Nav routes={constants.ROUTES} highlight_active={true}/></span>
                     </header>
                     <div className={style.child} style={{ maxWidth: this.props.width || "700px", width: "100%"}}>
                         <span className={this.props.className}>{this.props.children}</span>

@@ -3,18 +3,21 @@ import { NavLink } from 'react-router-dom'
 
 import style from './nav.module.scss'
 
-import * as constants from 'src/constants.js'
-
 class Nav extends React.Component {
-
     render() {
+        const routes = this.props.routes.map(route =>
+            route.external && 
+                <a className={style.navLink} key={route.label} href={route.url} target="_blank" rel="noopener noreferrer">{route.label}</a>  
+            ||
+                <NavLink activeClassName={style.activeNavLink} key={route.label} to={route.url}>{route.label}</NavLink> 
+        );
+
         return (
             <nav className={style.Nav}>
-                <NavLink to={constants.ROUTE_ABOUT}>ABOUT</NavLink>
-                <a href={constants.GITHUB} target="_blank" rel="noopener noreferrer">GITHUB</a>
-                <NavLink to={constants.ROUTE_CONTACT}>CONTACT</NavLink>
+                {routes}
             </nav>
         )
     }
 }
+
 export default Nav;
