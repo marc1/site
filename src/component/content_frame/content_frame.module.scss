@@ -24,7 +24,7 @@
             margin: 0px;
             padding: 0px;
 
-            font-weight: 1000;
+            font-weight: 900;
             font-size: 170%;
             text-shadow: 0.7px 0;
             transform: scaleX(1.6);
@@ -74,7 +74,7 @@
 
         /* temporary*/
         h1 {
-            font-weight: 1000;
+            font-weight: 900;
             text-shadow: 0.75px 0;
             transform: scaleY(0.9);
             transform-origin: 0 0;
@@ -90,7 +90,7 @@
         }
 
         p {
-            font-family: -apple-system;
+            font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
         }
     }
 }
