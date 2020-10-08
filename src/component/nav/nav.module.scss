@@ -1,12 +1,8 @@
-@import 'src/colors.scss';
+@import 'src/const/colors.scss';
 
 .Nav {
     display: flex;
     flex-wrap: wrap;
-
-    .activeNavLink {
-        color: $nav-active;
-    }
 
     a {
         flex: 1; /* parent */
@@ -27,5 +23,9 @@
         &:hover {
             color: $text-hover;
         }
+    }
+
+    .activeNavLink {
+        color: $nav-active;
     }
 }

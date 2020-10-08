@@ -1,4 +1,4 @@
-@import 'src/colors.scss';
+@import 'src/const/colors.scss';
 
 .ContentFrame {
     height: 100vh;
@@ -7,7 +7,6 @@
     grid-template-rows: 10% 90%;
     grid-template-columns: 100%; 
 
-    justify-content: center;
     margin: auto 10vw auto 10vw;
 
     header {
@@ -24,14 +23,14 @@
             margin: 0px;
             padding: 0px;
 
+            align-self: center;
+            justify-self: start;
+
             font-weight: 900;
-            font-size: 170%;
+            font-size: 150%;
             text-shadow: 0.7px 0;
             transform: scaleX(1.6);
             transform-origin: 0 0;
-
-            align-self: center;
-            justify-self: start;
 
             a {
                 color: $text;
@@ -41,7 +40,6 @@
                 &:hover {
                     color: $text-hover; 
                 }
-
             }
         }
 
@@ -67,12 +65,11 @@
 
         overflow-wrap: break-word;
 
-
         /* temporary*/
         h1 {
             font-weight: 900;
-            text-shadow: 0.75px 0;
-            transform: scaleY(0.9);
+            text-shadow: 0.7px 0;
+            transform: scaleX(1.1) scaleY(0.85);
             transform-origin: 0 0;
         }
 

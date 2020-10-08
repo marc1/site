@@ -15,9 +15,6 @@ const About = () => (
                 Aside from programming, I enjoy video games, photography/videography,
                 working on cars, building computers and keyboards, and playing chess.
             </p>
-            <p>
-                {/*test*/}
-            </p>
         </article>
     </ContentFrame>
 );

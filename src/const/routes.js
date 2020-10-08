@@ -9,4 +9,3 @@ export const ROUTES = [
     { label: "CONTACT", url: ROUTE_CONTACT},
     { label: "GITHUB", url: GITHUB, external: true }
 ];
-

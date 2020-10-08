@@ -1,8 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import 'src/index.scss'
-import 'src/colors.scss'
+import './index.scss'
 
 import App from 'src/component/app.jsx'
 

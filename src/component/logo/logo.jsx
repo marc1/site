@@ -2,9 +2,8 @@ import React from 'react'
 import * as THREE from 'three'
 
 import style from './logo.module.scss'
-import colors from 'src/colors.scss'
 
-const font_json = require('src/fonts/helvetica_neue_bold_italic.typeface.json');
+const font_json = require('src/fonts/helvetica.typeface.json');
 
 class Logo extends React.Component {
     constructor(props) {
