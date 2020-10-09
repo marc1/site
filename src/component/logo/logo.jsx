@@ -24,9 +24,9 @@ class Logo extends React.Component {
             width: this.mount.clientWidth,
             height: this.mount.clientHeight
         }, () => {
-            renderer.setPixelRatio(window.devicePixelRatio);
             renderer.setSize(this.state.width, this.state.height);
-            camera.aspect = this.state.width/this.state.height * 0.75; // Slightly stretched look
+            renderer.setPixelRatio(window.devicePixelRatio);
+            camera.aspect = this.state.width / this.state.height * 0.75; // Slightly stretched look
             camera.updateProjectionMatrix();
 
             return true;
@@ -46,7 +46,7 @@ class Logo extends React.Component {
 
         const font = new THREE.Font(font_json);
 
-        const text_1 = new THREE.TextGeometry("MARC", {
+        const text_1 = new THREE.TextGeometry('MARC', {
             font: font,
             size: 20,
             height: 8,
@@ -57,7 +57,7 @@ class Logo extends React.Component {
             bevelThickness: 1
         });
 
-        const text_2 = new THREE.TextGeometry("YEO", {
+        const text_2 = new THREE.TextGeometry('YEO', {
             font: font,
             size: 20,
             height: 8,

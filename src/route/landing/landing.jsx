@@ -8,8 +8,13 @@ import Nav from 'src/component/nav/nav.jsx'
 
 const Landing = () => (
     <main className={style.Landing}>
-        <span className={style.Logo}><Logo/></span>
-        <span className={style.Nav}><Nav routes={routes.ROUTES}/></span>
+        <span className={style.header}>
+            <Logo/>
+        </span>
+
+        <span className={style.navigation}>
+            <Nav routes={routes.ROUTES} vertical={false} align='center'/>
+        </span>
     </main>
 );
 

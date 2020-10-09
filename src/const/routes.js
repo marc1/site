@@ -5,5 +5,7 @@ export const GITHUB = 'https://www.github.com/marc1/';
 
 // Routes to be rendered by Navigation components
 export const ROUTES = [
-    { label: "GITHUB", url: GITHUB, external: true }
+    { label: 'GITHUB', url: '', external: false },
+    { label: 'DUMMY', url: '', external: false },
+    { label: 'DUMMY2', url: '', external: false }
 ];
