@@ -18,7 +18,11 @@ class Frame extends React.Component {
                 </aside>
 
                 <span className={style.content}>
-                    {this.props.children}
+                    <header className={style.header}>
+                        MARC YEO
+                    </header>
+
+                    <span className={style.children}>{this.props.children}</span>
                 </span>
             </main>
         )
