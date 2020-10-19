@@ -3,6 +3,8 @@ import * as routes from 'src/const/routes.js'
 
 import style from './frame.module.scss'
 
+import { Link } from 'react-router-dom'
+
 import Nav from 'src/component/nav/nav.jsx'
 
 class Frame extends React.Component {
@@ -19,7 +21,7 @@ class Frame extends React.Component {
 
                 <span className={style.content}>
                     <header className={style.header}>
-                        MARC YEO
+                        <Link to='/'>MARC YEO</Link>
                     </header>
 
                     <span className={style.children}>{this.props.children}</span>
